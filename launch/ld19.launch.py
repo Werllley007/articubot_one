@@ -29,7 +29,7 @@ def generate_launch_description():
       name='LD19',
       output='screen',
       parameters=[
-      	{'serial_port': '/dev/serial/by-path/platform-70090000.xusb-usb-0:2.3:1.0'},
+      	#{'serial_port': '/dev/serial/by-path/platform-70090000.xusb-usb-0:2.3:1.0'},
         {'product_name': 'LDLiDAR_LD19'},
         {'topic_name': 'scan'},
         {'frame_id': 'base_laser'},
